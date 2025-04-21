@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Technology - Theory</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4faff;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    h1 {
+      text-align: center;
+      color: #3a7ca5;
+      margin-bottom: 40px;
+    }
+    .unit {
+      margin-bottom: 50px;
+    }
+    .unit h2 {
+      color: #2c6f91;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .topic {
+      margin: 20px 0;
+    }
+    .backlink{
+        color: #0c1a44;
+        text-decoration: none;
+        }
+    .topic h3 {
+      color: #444;
+      margin-bottom: 10px;
+    }
+    .topic p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 15px;
+            background-color: #4169E1;
+            color: white;
+            border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Web Technology - Theory</h1>
+
+    <!-- UNIT 1 -->
+    <div class="unit">
+      <h2>Unit 1: HTML, CSS, and XML Basics</h2>
+
+      <div class="topic">
+        <h3>HTML Forms and Tags</h3>
+        <p>HTML forms allow users to input data and submit it to a web server for processing. Forms include elements such as text fields, radio buttons, checkboxes, and submit buttons. They are essential for user interaction on websites like login pages, registration, and surveys.</p>
+        <p>HTML tags define how content appears on the web page. Tags such as &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, and &lt;img&gt; are common. Tags are enclosed in angle brackets and usually come in pairs — an opening and a closing tag — to structure web content effectively.</p>
+      </div>
+
+      <div class="topic">
+        <h3>CSS Styling and Box Model</h3>
+        <p>CSS is used to style HTML elements and control the layout of web pages. CSS can be applied inline, internally, or externally using stylesheets. It includes properties for color, spacing, font, positioning, and responsiveness to enhance the appearance of a website.</p>
+        <p>The CSS Box Model consists of four areas: content, padding, border, and margin. Understanding this model is essential for designing layouts as it explains how elements take up space on the page and how to control their spacing and positioning.</p>
+      </div>
+
+      <div class="topic">
+        <h3>Introduction to XML</h3>
+        <p>XML stands for eXtensible Markup Language and is used to store and transport data. It is self-descriptive and supports a hierarchical structure. XML allows developers to create custom tags, making it flexible and suitable for a wide range of applications.</p>
+        <p>Unlike HTML, XML does not define how data is displayed. Instead, it focuses on what the data is. XML is often used in configuration files, web services, and data interchange between systems. It must be well-formed and follow strict syntax rules.</p>
+      </div>
+    </div>
+
+    <!-- UNIT 2 -->
+    <div class="unit">
+      <h2>Unit 2: XML, DTD, XSLT, and XSD</h2>
+
+      <div class="topic">
+        <h3>XML Structure and Namespaces</h3>
+        <p>XML documents are composed of elements, attributes, and nested tags. The structure must be well-formed with a single root element. Tags must be properly nested and closed to ensure the document is parseable.</p>
+        <p>Namespaces in XML help avoid name conflicts by qualifying element names. They are declared using the xmlns attribute and are particularly useful when combining documents from different sources that use similar tag names.</p>
+      </div>
+
+      <div class="topic">
+        <h3>DTD and XML Schema (XSD)</h3>
+        <p>DTD (Document Type Definition) defines the structure and rules for an XML document. It specifies allowed elements, attributes, and their relationships. DTD helps in validating XML content but lacks support for data types.</p>
+        <p>XML Schema (XSD) is more powerful than DTD. It allows definition of data types, restrictions, and inheritance. XSD is written in XML and provides more control over data validation, making it the preferred choice in modern XML applications.</p>
+      </div>
+
+      <div class="topic">
+        <h3>XSLT Transformations</h3>
+        <p>XSLT (Extensible Stylesheet Language Transformations) is used to convert XML documents into HTML or other formats. It uses templates and rules to match XML elements and apply transformations.</p>
+        <p>XSLT helps in displaying XML content in a readable format by using XPath to select specific parts of the XML document. It is useful in content management systems and data publishing applications.</p>
+      </div>
+    </div>
+
+    <!-- UNIT 3 -->
+    <div class="unit">
+      <h2>Unit 3: Perl and PHP Basics</h2>
+
+      <div class="topic">
+        <h3>Introduction to Perl</h3>
+        <p>Perl is a high-level, interpreted programming language known for its strong text-processing capabilities. It is commonly used in system administration, web development, and network programming.</p>
+        <p>Perl supports regular expressions, arrays, hashes, and control structures. It is especially powerful in handling CGI scripts for web applications, allowing interaction with web servers and users.</p>
+      </div>
+
+      <div class="topic">
+        <h3>PHP Syntax and Features</h3>
+        <p>PHP is a widely-used server-side scripting language embedded in HTML. It is designed for creating dynamic web pages and supports variables, loops, functions, and database interactions.</p>
+        <p>PHP can collect form data, manage sessions and cookies, and generate dynamic page content. Its syntax is simple and efficient, making it a popular choice for web development.</p>
+      </div>
+
+      <div class="topic">
+        <h3>CGI and Data Transfer</h3>
+        <p>CGI (Common Gateway Interface) is a standard protocol used to enable web servers to execute scripts and interact with databases. Perl was one of the first languages used with CGI.</p>
+        <p>Data can be transferred between web pages using GET or POST methods. Form data submitted to the server can be processed using PHP or Perl scripts, allowing for interactive and dynamic user experiences.</p>
+      </div>
+    </div>
+
+    <!-- UNIT 4 -->
+    <div class="unit">
+      <h2>Unit 4: PHP in Depth</h2>
+
+      <div class="topic">
+        <h3>PHP Arrays and Functions</h3>
+        <p>PHP supports indexed, associative, and multidimensional arrays. Arrays help manage and manipulate groups of data efficiently using functions like `array_push`, `array_merge`, and `sort`.</p>
+        <p>Functions in PHP allow for code reuse and better organization. PHP includes many built-in functions for strings, arrays, dates, and more, and developers can define their own custom functions.</p>
+      </div>
+
+      <div class="topic">
+        <h3>Sessions and Cookies</h3>
+        <p>Sessions are used to store user data across multiple pages. PHP automatically creates a session ID to identify each user and store their data temporarily on the server.</p>
+        <p>Cookies store small pieces of data on the user's browser and can persist even after the session ends. They are commonly used to remember login credentials, preferences, and other user-specific settings.</p>
+      </div>
+
+      <div class="topic">
+        <h3>File Handling and Validation</h3>
+        <p>PHP provides built-in functions to read, write, and manage files. File handling is useful for uploading files, generating logs, and storing user data.</p>
+        <p>Form validation ensures the user provides valid and expected input. PHP supports both server-side and client-side validation techniques to enhance application security and data integrity.</p>
+      </div>
+    </div>
+
+    <!-- UNIT 5 -->
+    <div class="unit">
+      <h2>Unit 5: PL/SQL, MySQL, AJAX, and Rails</h2>
+
+      <div class="topic">
+        <h3>PL/SQL and MySQL Basics</h3>
+        <p>PL/SQL is Oracle's procedural language extension for SQL. It allows for complex operations including conditions, loops, and error handling within SQL queries. It is used for writing stored procedures and functions.</p>
+        <p>MySQL is a popular open-source database that supports standard SQL queries. It is used for creating and managing relational databases, offering features like joins, views, triggers, and stored routines.</p>
+      </div>
+
+      <div class="topic">
+        <h3>Joins and Aggregates in MySQL</h3>
+        <p>Joins are used to combine rows from two or more tables based on a related column. Types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.</p>
+        <p>Aggregate functions such as COUNT, SUM, AVG, MAX, and MIN are used to perform calculations on multiple rows of a table. These are commonly used with GROUP BY for reporting and analytics.</p>
+      </div>
+
+      <div class="topic">
+        <h3>AJAX and Ruby on Rails</h3>
+        <p>AJAX (Asynchronous JavaScript and XML) allows web pages to update asynchronously by exchanging data with a server behind the scenes. This results in faster, smoother user experiences without full page reloads.</p>
+        <p>Ruby on Rails is a web application framework based on the Model-View-Controller (MVC) pattern. It simplifies database operations, routing, and view rendering, making it popular for rapid development of modern web apps.</p>
+      </div>
+    </div><a href="index.html" class="back-link" align="center">← Back to Home</a>
+  </div>
+</body>
+</html>
